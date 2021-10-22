@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+}
+#header,
+#footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #6d9332;
+}
+.container{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#menu{
+    height: calc(100% - 10px);
+    flex-grow: 1;
+    background-color: #b71fc9;
+}
+.wraper_post{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 3;
+
+}
+.post{
+    width: 100%;
+    background-color: #5c92f1;
+}
