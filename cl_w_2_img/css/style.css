@@ -197,7 +197,7 @@
     width: 20%;
 }
 .box_circle{
-    height: 300px;
+    padding: 20px 0;
 }
 .box_circle .container{
     display: flex;
@@ -425,4 +425,11 @@
     height: 30px;
     border-radius: 4px;
 
+}
+@media screen and (max-width: 600px){
+    .box_circle .container{
+        row-gap: 15px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }

@@ -135,3 +135,14 @@
     flex-grow: 1;
     border-radius: 3px;
 }
+@media screen and (max-width: 760px) {
+    .silver{
+        background-color: deepskyblue;
+    }
+    .dark{
+        background-color: aliceblue;
+    }
+    .conainer{
+        row-gap: 15px;
+    }
+}
